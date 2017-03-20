@@ -1,6 +1,6 @@
 name: Architect Theme
 markdown: redcarpet
-baseurl: ''
+baseurl: '/jekyll-architect-theme'
 theme: jekyll-theme-architect
 
 ---
