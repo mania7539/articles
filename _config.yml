@@ -2,3 +2,8 @@ name: Architect Theme
 markdown: redcarpet
 baseurl: '/jekyll-architect-theme'
 theme: jekyll-theme-architect
+
+layout: default
+comments: true
+
+
