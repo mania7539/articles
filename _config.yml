@@ -8,3 +8,9 @@ layout: default
 comments: true
 ---
 
+collections:
+  cookies: 
+    output: true
+    permalink: /
+
+permalink: :title
