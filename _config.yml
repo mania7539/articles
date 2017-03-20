@@ -11,6 +11,6 @@ comments: true
 collections:
   cookies: 
     output: true
-    permalink: /
+    permalink: /blog/:path/
 
 permalink: /:title/
