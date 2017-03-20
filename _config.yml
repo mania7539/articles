@@ -13,4 +13,4 @@ collections:
     output: true
     permalink: /
 
-permalink: :title
+permalink: /:title/
