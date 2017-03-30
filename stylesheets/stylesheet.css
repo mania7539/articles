@@ -469,6 +469,24 @@ header h1 {
   letter-spacing: -1px;
 }
 
+header h1 b {
+  color: #FF007F; /*dark pink*/
+}
+
+header h1 span {
+  /*width: 540px;*/
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 1.3;
+  /*color: #9ddcff;*/ /*light blue*/
+  letter-spacing: 0;
+  
+  /* my optional settings */
+  color: #FF007F; /*dark pink*/
+  text-align: right;
+  
+}
+
 header h2 {
   /*width: 540px;*/
   width: 900px;
