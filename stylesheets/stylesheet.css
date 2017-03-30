@@ -476,8 +476,12 @@ header h2 {
   font-weight: normal;
   line-height: 1.3;
   /*color: #9ddcff;*/ /*light blue*/
-  color: #FF007F; /*dark pink*/
   letter-spacing: 0;
+  
+  /* my optional settings */
+  color: #FF007F; /*dark pink*/
+  text-align: right;
+  
 }
 
 .inner {
