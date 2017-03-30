@@ -1,4 +1,4 @@
-name: Written by Ray
+name: Ray's Blog for Software Developments
 markdown: redcarpet
 baseurl: '/articles'
 theme: jekyll-theme-architect
