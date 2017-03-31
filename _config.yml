@@ -12,6 +12,6 @@ permalink: /:title.html
 collections:
   cookies: 
     output: true
-    permalink: /blog/:path/
+    
 
 
