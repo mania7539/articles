@@ -6,6 +6,7 @@ theme: jekyll-theme-architect
 ---
 layout: default
 comments: true
+permalink: /:title.html
 ---
 
 collections:
@@ -13,4 +14,4 @@ collections:
     output: true
     permalink: /blog/:path/
 
-permalink: /:title.html
+
