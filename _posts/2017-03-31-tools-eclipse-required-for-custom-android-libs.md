@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-_Hey pals, in this article, I will show you the exact tools to use to setup Eclipse for custom android libraries. Make sure you get all of them below so later we can directly start to setup eclipse._
+_Hey pals, in this article, I will show you the exact tools to use to setup Eclipse for custom android libraries to work with. Make sure you get all of them below so later we can directly start to setup eclipse._
 
 ## Get the Latest Version of Eclipse
 Currently it's Eclipse - Neon 2 which covers Android development plugins. Just use it to update eclipse with its *“Android SDK Manager”*.
