@@ -6,7 +6,7 @@ _Hey pals, in this article, I will show you the exact tools to use to setup Ecli
 
 ## Get the Latest Version of Eclipse
 Currently it's Eclipse - Neon 2 which covers Android development plugins. Just use it to update eclipse with its *“Android SDK Manager”*.
-Download Eclipse - Neon 2 on [Official Website](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R2a/eclipse-inst-win64.exe) or via [My private Space](file://qthdavidrzliu/David.Rz.Liu_SharePoint/).
+Download Eclipse - Neon 2 on [Official Website](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R2a/eclipse-inst-win64.exe) or via [My Private Space](file://qthdavidrzliu/David.Rz.Liu_SharePoint/).
 
 ## Get JDK 1.6 and NDK rc7
 It is important to make sure that you are using JDK 1.6 or compatible Java version to avoid problem when building.
