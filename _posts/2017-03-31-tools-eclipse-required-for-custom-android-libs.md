@@ -18,6 +18,6 @@ Or via [My Private Space](\\QTHDAVIDRZLIU\David.Rz.Liu_SharePoint).
 
 ## Get Eclipse Android SDK Manager
 Use this tool to update your SDK and toolkits to the target version like */Extras* and the relevant Android SDK version and latest */Tools* version to a better building experience and successfully APK building. 
-Open your **eclipse > Windows > Android SDK Manager, and choose tools > Install Packages**.
+Open your *Eclipse **>** Windows **>** Android SDK Manager*, and choose *Tools **>** Install Packages*.
 
 ## Relevant Articles
