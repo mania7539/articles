@@ -12,7 +12,7 @@ Download Eclipse - Neon 2 on [Official Website](https://www.eclipse.org/download
 
 ### Get JDK 1.6 and NDK rc7
 It is important to make sure that you are using JDK 1.6 or compatible Java version to avoid problem when building.
-Download JDK 1.6 on [Official website](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html#jdk-6u45-oth-JPR) or via [My Private Space](file://qthdavidrzliu/David.Rz.Liu_SharePoint/).
+Download JDK 1.6 on [Official Website](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html#jdk-6u45-oth-JPR) or via [My Private Space](file://qthdavidrzliu/David.Rz.Liu_SharePoint/).
 
 Do not use the latest version of NDK, you will later find eclipse doesn’t accept it just on its setting interface.
 Download NDK rc7 on [Official Website](http://dl.google.com/android/ndk/android-ndk-r7c-windows.zip)
