@@ -2,6 +2,8 @@
 published: true
 permalink: '/:title.html'
 ---
+------
+
 _Hey pals, in this article, I will show you the exact tools to use to setup Eclipse for custom android libraries to work with. Make sure you get all of them below so later we can directly start to setup eclipse._
 
 ### Get the Latest Version of Eclipse
@@ -22,4 +24,4 @@ Use this tool to update your SDK and toolkits to the target version like */Extra
 Open your Eclipse > Windows > Android SDK Manager, and choose Tools > Install Packages.
 ```
 
-### Relevant Articles for Further Reading
+### Relevant Articles for Further Reading********
