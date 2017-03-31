@@ -13,4 +13,4 @@ collections:
     output: true
     permalink: /blog/:path/
 
-permalink: /:title/
+permalink: /:title.html
