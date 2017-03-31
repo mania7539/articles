@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Hey pals, in this article, I will show you the exact tools to use to setup Eclipse for custom android libraries. Make sure you get all of them below so later we can directly start to setup eclipse.
 
