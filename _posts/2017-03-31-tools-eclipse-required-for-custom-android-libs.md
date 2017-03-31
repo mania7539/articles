@@ -24,4 +24,4 @@ Use this tool to update your SDK and toolkits to the target version like */Extra
 Open your Eclipse > Windows > Android SDK Manager, and choose Tools > Install Packages.
 ```
 
-### Relevant Articles for Further Reading********
+### Relevant Articles for Further Reading 
