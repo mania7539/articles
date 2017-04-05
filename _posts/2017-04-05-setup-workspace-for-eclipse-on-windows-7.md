@@ -7,6 +7,7 @@ _For using Eclipse, the first step is creating your coding workspace which every
 
 ### Connect Your Computer with Network Disk
 <img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/win7-network-disk-1.png" style="width: 500px;" />
+
 Follow the steps which shows on previous image:
 ```
 Start > Computer > Map Network Drive Button > Enter details of you network disk > Click "Fisish" 
@@ -44,3 +45,5 @@ Then we can make things done!
 Since you can use different workspace to store different settings and preferences of Eclipse environment, creating more than one workspaces will help you easily get into another working environment quick if you have more than one huge projects which includes multiple android library projects and main project.
 
 ### Relevant Articles for Further Reading
+
+
