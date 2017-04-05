@@ -21,7 +21,7 @@ If you already have android project which you've written before, then via the im
 
 You will get the window for detail android project setup. According to your status of existing code, there will be different path of importing you need to go through. 
 
-If you don't have .project file in your Android project directory, it means Eclipse has used it before to remember relative project settings to use. So follow the steps below to start importing:
+If you don't have .project file in your Android project directory, it means Eclipse has used it before to remember relative project settings to use. So follow the steps below to start importing:</br>
 
 ```
 Click File > New > Android Project 
@@ -31,7 +31,7 @@ Click File > New > Android Project
     > Click "Finish"
 ```
 
-However, if you actually have .project file, then it's purely even simpler just: 
+However, if you actually have .project file, then it's purely even simpler just: </br>
 
 ```
 Click File > Import 
