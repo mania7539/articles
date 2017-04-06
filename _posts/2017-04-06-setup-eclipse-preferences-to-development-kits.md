@@ -5,7 +5,7 @@ _Hey pals, in this article, we will focus on how to connect your development kit
 
 _Before you go on with this article, please check if you've already get all the development kits and tools needed. If you don't know what exactly I am talking about, read [Tools Eclipse Required for Custom Android Libraries](https://mania7539.github.io/articles/tools-eclipse-required-for-custom-android-libs.html) first._
 
-_Once you've all done, then move on to the contents below._
+_Once make sure you've all done, then move on to the contents below._
 
 ### Project Build Settings for Custom Android Package Library
 
@@ -22,52 +22,61 @@ Right click on your target project in left panel
 ```
 
 ### Locate the Custom Debug.keystore for Your Android Device
+
 <p align="left">
 	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/custom-debug-keystore.png" style="width: 500px;" />
 </p>
 
 Follow the steps which shows on previous image:
+
 ```
-Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+Windows > Preferences 
+	> Android > Build 
+    	> Browse to fill in debug.keystore location in "Custom debug keystore"
 ```
 
 ### Locate the JDK Folder and Set Compatibility to 1.6
-If you already have Android project which you've written before, then via the importing function of eclipse, it will help you to manage them, see if there's any syntax error, potential warning and generate .APK files for you to later install / test on Android devices.
-
-You can get a window for detail Android project setup. According to your status of existing code, there will be different steps of importing you need to go through. 
-
-If you don't have .project file in your Android project directory, it means Eclipse has used it before to remember relative project settings to use. So follow the steps below to start importing:</br>
 
 <p align="left">
 	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/eclipse-jdk.png" style="width: 500px;" />
 </p>
 
 Follow the steps which shows on previous image:
+
 ```
-Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+Windows > Preferences 
+	> Java > Installed JREs 
+    	> Add "Standard VM" > Next
+        	> Browse the directory where your JDK is located > Click "Finish"
 ```
+
+In additional to JDK location, also check if your compliance level is set to **1.6** as shown in below image.
 
 <p align="left">
 	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/eclipse-jdk-compliance-level.png" style="width: 500px;" />
 </p>
 
 Follow the steps which shows on previous image:
+
 ```
-Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+Windows > Preferences 
+	> Java > Compiler
+    	> Compiler compliance level: 1.6 > Press "OK"
 ```
 
 Then we can make things done!
 
 ### Locate Your Default Android SDK Library
-Since you can use different workspace to store different settings and preferences of Eclipse environment, creating more than one workspaces will help you easily get into another working environment quick if you have more than one huge projects which includes multiple Android library projects and main project.
-
 <p align="left">
 	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/android-sdk.png" style="width: 500px;" />
 </p>
 
 Follow the steps which shows on previous image:
+
 ```
-Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+Windows > Preferences 
+	> Android 
+    	> Browse to fill in Android SDK folder location in "SDK Location" > Press "OK"
 ```
 
 ### Locate Your NDK Library
@@ -76,8 +85,11 @@ Windows > Preferences > Android > Build > Browse to fill in debug.keystore locat
 </p>
 
 Follow the steps which shows on previous image:
+
 ```
-Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+Windows > Preferences 
+	> Android > NDK
+    	> Browse to fill in NDK folder in "NDK Location" > Press "OK"
 ```
 
 ### Relevant Articles for Further Reading
