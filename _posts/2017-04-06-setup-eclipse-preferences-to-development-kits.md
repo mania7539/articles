@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 _Hey pals, in this article, we will focus on how to connect your development kits and tools to Eclipse, so later soon Eclipse can help you build .APK file and deploy to your Android devices._
 
