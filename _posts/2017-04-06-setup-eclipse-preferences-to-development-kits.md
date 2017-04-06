@@ -1,20 +1,31 @@
 ---
 published: false
 ---
-_For using Eclipse, the first step is creating your coding workspace which everytime you can open it and load your preferences to get on work. In this article you will learn how to setup network disk and import your project on that to your workspace so later you can build your Android codes with Eclipse._
+_Hey pals, in this article, we will focus on how to connect your development kits and tools to Eclipse, so later soon Eclipse can help you build .APK file and deploy to your Android devices. 
+
+Before you go on with this article, please check if you've already get all the development kits and tools needed. If you don't know what exactly I am talking about, read [Tools Eclipse Required for Custom Android Libraries](https://mania7539.github.io/articles/tools-eclipse-required-for-custom-android-libs.html) first.
+
+Once you've all done, move on to the contents below._
 
 ### Project Build settings for custom Android package library
 <p align="left">
-	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/win7-network-disk-1.png" style="width: 500px;" />
+	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/custom-android-project-build-path-uncheck-private-lib.png" style="width: 500px;" />
 </p>
 
 Follow the steps which shows on previous image:
 ```
-Start > Computer > Map Network Drive Button > Enter details of you network disk > Click "Fisish" 
+Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
 ```
 
 ### Locate the custom Debug.keystore for your Android device
-When the first time you open your Eclipse, you will be asked to locate an local address which later you will always use to load preferences of projects. For now, just choose which directory you like to get it started, and I will recommend you to use second disk which your Windows 7 OS doesn't locate.
+<p align="left">
+	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/custom-debug-keystore.png" style="width: 500px;" />
+</p>
+
+Follow the steps which shows on previous image:
+```
+Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+```
 
 ### Locate the JDK folder and set compatibility to 1.6
 If you already have Android project which you've written before, then via the importing function of eclipse, it will help you to manage them, see if there's any syntax error, potential warning and generate .APK files for you to later install / test on Android devices.
@@ -23,24 +34,22 @@ You can get a window for detail Android project setup. According to your status 
 
 If you don't have .project file in your Android project directory, it means Eclipse has used it before to remember relative project settings to use. So follow the steps below to start importing:</br>
 
-```
-Click File > New > Android Project 
-	> Project name: better remain your folder name, 
-    > Toggle "create project from existing source"
-    > Choose the SDK level which you've written on your AndroidManifest.xml (You must know it since it's from your existing codes)
-    > Click "Finish"
-```
 <p align="left">
-	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/new-project-from-existing-source.png" style="width: 500px; height: 500px;" />
+	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/eclipse-jdk.png" style="width: 500px;" />
 </p>
 
-However, if you actually have .project file, then it's purely even simpler just: </br>
-
+Follow the steps which shows on previous image:
 ```
-Click File > Import 
-	> General > Existing Projects into Workspace 
-    > Select root directory: browse your project directory
-    > Click "Finish"
+Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+```
+
+<p align="left">
+	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/eclipse-jdk-compliance-level.png" style="width: 500px;" />
+</p>
+
+Follow the steps which shows on previous image:
+```
+Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
 ```
 
 Then we can make things done!
@@ -48,7 +57,23 @@ Then we can make things done!
 ### Locate your default Android SDK library
 Since you can use different workspace to store different settings and preferences of Eclipse environment, creating more than one workspaces will help you easily get into another working environment quick if you have more than one huge projects which includes multiple Android library projects and main project.
 
-### Locate your NDK library
+<p align="left">
+	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/android-sdk.png" style="width: 500px;" />
+</p>
 
+Follow the steps which shows on previous image:
+```
+Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+```
+
+### Locate your NDK library
+<p align="left">
+	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/eclipse-android-ndk.png" style="width: 500px;" />
+</p>
+
+Follow the steps which shows on previous image:
+```
+Windows > Preferences > Android > Build > Browse to fill in debug.keystore location in "Custom debug keystore"
+```
 
 ### Relevant Articles for Further Reading
