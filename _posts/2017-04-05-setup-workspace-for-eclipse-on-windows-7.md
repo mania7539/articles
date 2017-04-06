@@ -4,7 +4,7 @@ published: true
 _For using Eclipse, the first step is creating your coding workspace which everytime you can open it and load your preferences to get on work. In this article you will learn how to setup network disk and import your project on that to your workspace so later you can build your Android codes with Eclipse._
 
 ### Connect Your Computer with Network Disk
-<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/win7-network-disk-1.png" style="width: 500px;" /></br>
+<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/win7-network-disk-1.png" style="width: 500px; float: center;" /></br>
 
 Follow the steps which shows on previous image:
 ```
@@ -17,7 +17,7 @@ When the first time you open your Eclipse, you will be asked to locate an local 
 ### Import You Projects
 If you already have Android project which you've written before, then via the importing function of eclipse, it will help you to manage them, see if there's any syntax error, potential warning and generate .APK files for you to later install / test on Android devices.
 
-You will get the window for detail Android project setup. According to your status of existing code, there will be different path of importing you need to go through. 
+You can get a window for detail Android project setup. According to your status of existing code, there will be different steps of importing you need to go through. 
 
 If you don't have .project file in your Android project directory, it means Eclipse has used it before to remember relative project settings to use. So follow the steps below to start importing:</br>
 
@@ -28,6 +28,8 @@ Click File > New > Android Project
     > Choose the SDK level which you've written on your AndroidManifest.xml (You must know it since it's from your existing codes)
     > Click "Finish"
 ```
+
+<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/new-project-from-existing-source.png" style="width: 500px; height: 350px; float: center;" />
 
 However, if you actually have .project file, then it's purely even simpler just: </br>
 
