@@ -4,7 +4,7 @@ published: true
 _For using Eclipse, the first step is creating your coding workspace which everytime you can open it and load your preferences to get on work. In this article you will learn how to setup network disk and import your project on that to your workspace so later you can build your Android codes with Eclipse._
 
 ### Connect Your Computer with Network Disk
-<p align="center">
+<p align="left">
 	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/win7-network-disk-1.png" style="width: 500px;" />
 </p>
 
@@ -30,7 +30,7 @@ Click File > New > Android Project
     > Choose the SDK level which you've written on your AndroidManifest.xml (You must know it since it's from your existing codes)
     > Click "Finish"
 ```
-<p align="center">
+<p align="left">
 	<img src="https://raw.githubusercontent.com/mania7539/articles/gh-pages/images/new-project-from-existing-source.png" style="width: 500px; height: 500px;" />
 </p>
 
