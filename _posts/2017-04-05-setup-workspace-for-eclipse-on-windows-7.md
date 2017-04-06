@@ -25,8 +25,7 @@ If you don't have .project file in your Android project directory, it means Ecli
 Click File > New > Android Project 
 	> Project name: better remain your folder name, 
     > Toggle "create project from existing source"
-    > Choose the SDK level which you've written on your AndroidManifest.xml 
-      (You must know it since it's from your existing codes)
+    > Choose the SDK level which you've written on your AndroidManifest.xml (You must know it since it's from your existing codes)
     > Click "Finish"
 ```
 
