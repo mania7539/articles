@@ -348,8 +348,7 @@ public class ChatFragment extends AbstractFragment {
 
 
 
-```
-<?xml version="1.0" encoding="utf-8"?>
+```java
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -373,7 +372,6 @@ public class ChatFragment extends AbstractFragment {
 
 
 ```java
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -742,6 +740,7 @@ public class SharedPreferencesManager {
 
 
 ```
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Fragment Demo</string>
     <string name="action_settings">Action Settings</string>
@@ -765,6 +764,7 @@ public class SharedPreferencesManager {
 
 
 ```
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!-- Base application theme. -->
