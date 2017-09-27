@@ -654,7 +654,7 @@ public class NavigationDrawerPreferencesManager {
 * Create a manager singleton class named **SharedPreferencesManager.java** and write the following code.
 
 
-```java SharedPreferencesManager.java
+```java
 package com.ray.fragment_demo;
 
 import android.content.Context;
