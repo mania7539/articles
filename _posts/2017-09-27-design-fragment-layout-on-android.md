@@ -760,6 +760,7 @@ public class SharedPreferencesManager {
 
 ```
 
+
 * Create a resource file named **res/values/styles.xml** and write the following code.
 
 
@@ -852,6 +853,7 @@ public class SharedPreferencesManager {
 </menu>
 
 ```
+
 
 * Create a resource file named **res/layout/drawer_switch.xml** and write the following code.
 
