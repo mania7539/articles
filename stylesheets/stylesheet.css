@@ -526,8 +526,7 @@ header h2 {
 
 aside#sidebar {
   float: right;
-  position: relative;
-  width: 150px;
+  margin-left: -50px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;
