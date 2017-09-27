@@ -528,6 +528,7 @@ aside#sidebar {
   float: right;
   position: relative;
   margin-left: 150px;
+  width: 150px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;
