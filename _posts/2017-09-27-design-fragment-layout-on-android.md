@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## A New Post
 
@@ -872,4 +872,3 @@ public class SharedPreferencesManager {
 
 </LinearLayout>
 ```
-
