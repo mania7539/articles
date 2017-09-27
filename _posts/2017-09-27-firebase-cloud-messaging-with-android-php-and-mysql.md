@@ -1,8 +1,10 @@
 ---
-published: false
+published: true
 ---
 ## Learn From Online Resource
 * Learning from [Simplified Coding](https://www.simplifiedcoding.net/firebase-cloud-messaging-android/)
+* It's really a very nice source of learning codes, highly recommended.
+
 
 
 ## Update To My Own Version
@@ -159,6 +161,3 @@ class DbOperation
 
 ?>
 ```
-
-
-
