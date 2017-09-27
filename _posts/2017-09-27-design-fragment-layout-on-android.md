@@ -44,7 +44,7 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 * Create a class named **MainActivity.java** and write the following code.
 
 
-```
+```java
 package com.ray.fragment_demo;
 
 import android.os.Build;
@@ -249,7 +249,7 @@ public class MainActivity extends AppCompatActivity
 * Create a super class named **AbstractFragment.xml** and write the following code.
 
 
-```
+```java
 package com.ray.fragment_demo;
 
 import android.app.Activity;
@@ -267,7 +267,7 @@ public abstract class AbstractFragment extends Fragment {
 * Create a layout class named **EntryFragment.xml** and write the following code.
 
 
-```
+```java
 package com.ray.fragment_demo;
 
 import android.app.Activity;
@@ -307,7 +307,7 @@ public class EntryFragment extends AbstractFragment {
 
 
 
-```
+```java
 package com.ray.fragment_demo;
 
 import android.app.Activity;
@@ -372,7 +372,7 @@ public class ChatFragment extends AbstractFragment {
 * Create a layout xml file named **fragment_chat.xml** and write the following code.
 
 
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     android:layout_width="match_parent"
@@ -393,7 +393,7 @@ public class ChatFragment extends AbstractFragment {
 * Create a manager singleton class named **EntryActivityManager.java** and write the following code.
 
 
-```
+```java
 package com.ray.fragment_demo;
 
 import android.app.Activity;
@@ -549,7 +549,7 @@ public class EntryActivityManager {
 
 
 
-```
+```java
 package com.ray.fragment_demo;
 
 import android.app.Activity;
@@ -656,7 +656,7 @@ public class NavigationDrawerPreferencesManager {
 * Create a manager singleton class named **SharedPreferencesManager.java** and write the following code.
 
 
-```
+```java
 package com.ray.fragment_demo;
 
 import android.content.Context;
