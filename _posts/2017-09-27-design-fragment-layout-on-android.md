@@ -1,11 +1,7 @@
 ---
 published: true
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
-# Implement Main Layout
+## Implement Main Layout
 
 
 * Create a Manefist xml file **AndroidManifest.xml** and write the following code.
@@ -244,7 +240,7 @@ public class MainActivity extends AppCompatActivity
 ```
 
 
-# Implement Fragment Pages
+## Implement Fragment Pages
 
 * Create a super class named **AbstractFragment.xml** and write the following code.
 
@@ -386,7 +382,7 @@ public class ChatFragment extends AbstractFragment {
 ```
 
 
-# Implement Supportive Manager Classes
+## Implement Supportive Manager Classes
 
 * Create a manager singleton class named **EntryActivityManager.java** and write the following code.
 
@@ -734,7 +730,7 @@ public class SharedPreferencesManager {
 ```
 
 
-# Coding Resources
+## Coding Resources
 
 * Create a resource file named **res/values/strings.xml** and write the following code.
 
@@ -874,6 +870,3 @@ public class SharedPreferencesManager {
 
 </LinearLayout>
 ```
-
-
-
