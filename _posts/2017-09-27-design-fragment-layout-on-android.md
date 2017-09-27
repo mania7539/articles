@@ -654,7 +654,7 @@ public class NavigationDrawerPreferencesManager {
 * Create a manager singleton class named **SharedPreferencesManager.java** and write the following code.
 
 
-```java
+```java SharedPreferencesManager.java
 package com.ray.fragment_demo;
 
 import android.content.Context;
@@ -856,7 +856,7 @@ public class SharedPreferencesManager {
 * Create a resource file named **res/layout/drawer_switch.xml** and write the following code.
 
 
-```xml res/layout/drawer_switch.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="horizontal" android:layout_width="match_parent"
