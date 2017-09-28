@@ -871,4 +871,4 @@ public class SharedPreferencesManager {
 </LinearLayout>
 ```
 
-![Home Fragment]({{site.baseurl}}/images/Screenshot_1506502739.png =300x) | ![Drawer Layout]({{site.baseurl}}/images/Screenshot_1506502686.png =300x) | ![2nd Fragment]({{site.baseurl}}/images/Screenshot_1506502684.png =300x)
+![Home Fragment]({{site.baseurl}}/images/Screenshot_1506502739.png =200x) | ![Drawer Layout]({{site.baseurl}}/images/Screenshot_1506502686.png =200x) | ![2nd Fragment]({{site.baseurl}}/images/Screenshot_1506502684.png =200x)
