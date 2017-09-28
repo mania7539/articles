@@ -78,13 +78,14 @@ class DbOperation
     //getting all tokens to send push to all devices
     public function getAllTokens(){
         $stmt = $this->con->prepare("SELECT token FROM devices");
-        if ($stmt->execute())
-			echo "success<br>";
-		else echo "failure<br>";
+        if ($stmt->execute()) {
+		//	echo "success<br>";
+		}
+		//else echo "failure<br>";
 		
         $stmt->store_result();
 		$stmt->bind_result($token);
-		echo $stmt->num_rows . "<br>";
+		//echo $stmt->num_rows . "<br>";
 			
 		$tokens = array();
 		while($stmt->fetch()) {
@@ -92,7 +93,7 @@ class DbOperation
 			$tmp["token"] = $token;
 			array_push($tokens, $tmp["token"]);
 			
-			echo $token.'<br>';
+			//echo $token.'<br>';
 		}
 		
 		$stmt->free_result();
@@ -104,15 +105,16 @@ class DbOperation
     public function getTokenByEmail($email){
         $stmt = $this->con->prepare("SELECT token FROM devices WHERE email = ?");
         $stmt->bind_param("s",$email);
-        if ($stmt->execute())
-			echo "success<br>";
-		else echo "failure<br>";
+        if ($stmt->execute()) {
+		//	echo "success<br>";
+		}
+		//else echo "failure<br>";
         //$result = $stmt->get_result()->fetch_assoc();
         //return array($result['token']);   
 		
 		$stmt->store_result();
 		$stmt->bind_result($token);
-		echo $stmt->num_rows . "<br>";
+		//echo $stmt->num_rows . "<br>";
 			
 		$tokens = array();
 		while($stmt->fetch()) {
@@ -120,12 +122,12 @@ class DbOperation
 			$tmp["token"] = $token;
 			array_push($tokens, $tmp);
 			
-			echo $token.'<br>';
+			//echo $token.'<br>';
 		}
 		
 		$stmt->free_result();
 		$stmt->close();
-		echo "token:".$token."<br>";
+		//echo "token:".$token."<br>";
 		return $token;
     }
 	
@@ -134,13 +136,14 @@ class DbOperation
 		//$stmt->bind_param("i", $id);
 		//$stmt->bind_param("s", $email);
 		//$stmt->bind_param("s", $token);
-		if ($stmt->execute())
-			echo "success<br>";
-		else echo "failure<br>";
+		if ($stmt->execute()) {
+		//	echo "success<br>";
+		}
+		//else echo "failure<br>";
 		
 		$stmt->store_result();
 		$stmt->bind_result($id, $email, $token);
-		echo $stmt->num_rows . "<br>";
+		//echo $stmt->num_rows . "<br>";
 			
 		$devices = array();
 		while($stmt->fetch()) {
@@ -150,7 +153,7 @@ class DbOperation
 			$tmp["token"] = $token;
 			array_push($devices, $tmp);
 			
-			echo $id.' '.$email.' '.$token.'<br>';
+			//echo $id.' '.$email.' '.$token.'<br>';
 		}
 		
 		$stmt->free_result();
