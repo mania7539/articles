@@ -1,9 +1,6 @@
 ---
 published: true
 ---
-## Design a Tab Layout App Framework for Android
-
-
 * Update **styles.xml** with the following code for Light Theme
 
 
