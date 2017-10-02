@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-* Update **styles.xml** with the following code for Light Theme
+* Update **styles.xml** with the following code for Light Theme (Theme Version 1)
 
 
 ```
@@ -21,7 +21,7 @@ published: true
 ```
 
 
-* Update **styles.xml** with the following code for Dark Theme
+* Update **styles.xml** with the following code for Dark Theme (Theme Version 2)
 
 
 ```
