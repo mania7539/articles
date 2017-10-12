@@ -4,24 +4,18 @@ published: true
 
 * Describe in the sequence of bash command
 
-```bash
-$ cd [app-project-directory]
-$ npm install --save express
-$ vi procfile
+
+$ cd [app-project-directory] </br>
+$ npm install --save express </br>
+$ vi procfile </br>
 ```
-<BLOCKQUOTE>
-<pre class="javascript"><code class="javascript">
 // in procfile
 web: node index.js
-</code></pre>
-</BLOCKQUOTE>
-
-
-```sh
-$ vi index.js 
 ```
-<BLOCKQUOTE> 
-<pre class="javascript"><code class="javascript">
+
+
+$ vi index.js 
+```javascript
 // in index.js
 var express = require('express')
 var app = express()
@@ -37,14 +31,10 @@ app.get('*', function(request, response) {
 app.listen(app.get('port'), function() {
 	console.log("Express server started on port", app.get('port'))
 })
-
-</code></pre>
-</BLOCKQUOTE>
-
-
-```bash
-$ node index.js
 ```
+
+
+$ node index.js
 
 
 **Note: c9.io doesn't support http (only https), so can't use "$ npm run build" for production build**
