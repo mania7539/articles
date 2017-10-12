@@ -10,10 +10,10 @@ $ npm install --save express
 $ vi procfile
 ```
 <BLOCKQUOTE>
-```javascript
+<code>
 // in procfile
 web: node index.js
-```
+</code>
 </BLOCKQUOTE>
 
 
@@ -21,7 +21,7 @@ web: node index.js
 $ vi index.js 
 ```
 <BLOCKQUOTE> 
-```javascript
+<code>
 // in index.js
 var express = require('express')
 var app = express()
@@ -38,7 +38,7 @@ app.listen(app.get('port'), function() {
 	console.log("Express server started on port", app.get('port'))
 })
 
-```
+</code>
 </BLOCKQUOTE>
 
 
