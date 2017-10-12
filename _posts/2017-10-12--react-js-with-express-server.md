@@ -11,6 +11,7 @@ $ vi procfile
 ```
 
 ```	javascript
+// in procfile
 web: node index.js
 ```
 
@@ -21,6 +22,7 @@ $ vi index.js
 
 
 ```javascript
+// in index.js
 var express = require('express')
 var app = express()
 
