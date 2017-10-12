@@ -47,4 +47,4 @@ $ node index.js
 
 
 ## What's Next?
-**[Read the article: "Create Git Repository With Heroku Cloud Service" for backup your work](https://mania7539.github.io/articles/create-git-repository-with-heroku-cloud-service.html)**
+**[Read the article: "Create Git Repository With Heroku Cloud Service" to backup your work online](https://mania7539.github.io/articles/create-git-repository-with-heroku-cloud-service.html)**
