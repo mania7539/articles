@@ -10,10 +10,10 @@ $ npm install --save express
 $ vi procfile
 ```
 
-```	javascript
+> ```	javascript
 // in procfile
 web: node index.js
-```
+> ```
 
 
 ```sh
