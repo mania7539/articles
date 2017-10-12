@@ -9,35 +9,35 @@ $ cd [app-project-directory]
 $ npm install --save express
 $ vi procfile
 ```
-> ```javascript
-// in procfile
-web: node index.js
-> ```
+	```javascript
+	// in procfile
+	web: node index.js
+	```
 
 
 ```sh
 $ vi index.js 
 ```
-> 
-```javascript
-// in index.js
-var express = require('express')
-var app = express()
+ 
+	```javascript
+	// in index.js
+	var express = require('express')
+	var app = express()
 
-app.set('port', (process.env.PORT || 3000))
+	app.set('port', (process.env.PORT || 3000))
 
-app.use(express.static(__dirname + '/build'))
+	app.use(express.static(__dirname + '/build'))
 
-app.get('*', function(request, response) {
-	response.sendFile(__dirname + '/build/index.html')	
-})
+	app.get('*', function(request, response) {
+		response.sendFile(__dirname + '/build/index.html')	
+	})
 
-app.listen(app.get('port'), function() {
-	console.log("Express server started on port", app.get('port'))
-})
+	app.listen(app.get('port'), function() {
+		console.log("Express server started on port", app.get('port'))
+	})
 
-```
->
+	```
+
 
 
 ```bash
