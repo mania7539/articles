@@ -19,7 +19,7 @@ Write in HTML
 
 Write in ReactJS
 
-```reactjs
+```jsx
 class App extends React.Component {
   constructor(props) {
     super(props);
