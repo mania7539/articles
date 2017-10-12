@@ -2,17 +2,23 @@
 published: true
 ---
 
+* Describe in the sequence of bash command
+
+```bash
 $ cd [app-project-directory]
-
 $ npm install --save express
-
 $ vi procfile
+```
 
 ```	javascript
 web: node index.js
 ```
 
+
+```sh
 $ vi index.js 
+```
+
 
 ```javascript
 var express = require('express')
@@ -32,7 +38,11 @@ app.listen(app.get('port'), function() {
 
 ```
 
+
+```bash
 $ node index.js
+```
+
 
 **Note: c9.io doesn't support http (only https), so can't use "$ npm run build" for production build**
 
