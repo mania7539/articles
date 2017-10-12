@@ -18,7 +18,8 @@ web: node index.js
 ```sh
 $ vi index.js 
 ```
-> ```javascript
+> 
+```javascript
 // in index.js
 var express = require('express')
 var app = express()
@@ -35,7 +36,8 @@ app.listen(app.get('port'), function() {
 	console.log("Express server started on port", app.get('port'))
 })
 
-> ```
+```
+>
 
 
 ```bash
