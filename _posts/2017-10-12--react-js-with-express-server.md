@@ -9,17 +9,20 @@ $ cd [app-project-directory]
 $ npm install --save express
 $ vi procfile
 ```
-
-```javascript procfile
+<BLOCKQUOTE>
+```javascript
+// in procfile
 web: node index.js
 ```
+</BLOCKQUOTE>
 
 
 ```sh
 $ vi index.js 
 ```
- 
-```javascript index.js
+<BLOCKQUOTE> 
+```javascript
+// in index.js
 var express = require('express')
 var app = express()
 
@@ -36,7 +39,7 @@ app.listen(app.get('port'), function() {
 })
 
 ```
-
+</BLOCKQUOTE>
 
 
 ```bash
