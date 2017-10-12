@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-*Step by step bash commands  
+* Step by step bash commands  
 
 
 ```bash
