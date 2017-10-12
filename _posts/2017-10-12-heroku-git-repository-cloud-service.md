@@ -20,13 +20,16 @@ $ git remote
 	# check if it's a git repository
 $ git init
 $ git remote
+    # check again
 $ git remote add [short-name] [git-repository-url]
 $ git add .
 $ git status
-
+    # check the added and modified files 
 $ vi .gitignore
 	# /build	// this directory should not be ignored
 $ git commit -m "first commit"
 $ git status
+	# check the added and modified files again
 $ git push [short-name] master
+	# the shortname should be as the same one as the above command
 ```
