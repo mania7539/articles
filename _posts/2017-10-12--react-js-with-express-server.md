@@ -5,9 +5,11 @@ published: true
 * Describe in the sequence of bash command
 
 
-$ cd [app-project-directory] </br>
-$ npm install --save express </br>
-$ vi procfile </br>
+$ cd [app-project-directory]
+
+$ npm install --save express
+
+$ vi procfile
 ```
 // in procfile
 web: node index.js
