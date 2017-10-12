@@ -3,6 +3,7 @@ published: true
 ---
 
 $ cd [app-project-directory]
+
 $ npm install --save express
 
 $ vi procfile
