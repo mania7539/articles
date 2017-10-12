@@ -10,8 +10,7 @@ $ npm install --save express
 $ vi procfile
 ```
 
-```javascript
-// in procfile
+```javascript procfile
 web: node index.js
 ```
 
@@ -20,8 +19,7 @@ web: node index.js
 $ vi index.js 
 ```
  
-```javascript
-// in index.js
+```javascript index.js
 var express = require('express')
 var app = express()
 
