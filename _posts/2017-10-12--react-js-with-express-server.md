@@ -10,7 +10,7 @@ $ npm install --save express
 $ vi procfile
 ```
 <BLOCKQUOTE>
-<pre><code>
+<pre class="javascript"><code class="javascript">
 // in procfile
 web: node index.js
 </code></pre>
@@ -21,7 +21,7 @@ web: node index.js
 $ vi index.js 
 ```
 <BLOCKQUOTE> 
-<pre><code>
+<pre class="javascript"><code class="javascript">
 // in index.js
 var express = require('express')
 var app = express()
