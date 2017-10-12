@@ -18,7 +18,7 @@ web: node index.js
 ```sh
 $ vi index.js 
 ```
-> ```javascript
+> ```	javascript
 // in index.js
 var express = require('express')
 var app = express()
