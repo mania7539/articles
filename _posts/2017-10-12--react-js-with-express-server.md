@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 $ cd [app-project-directory]
@@ -32,5 +32,3 @@ app.listen(app.get('port'), function() {
 ```
 
 $ node index.js
-
-
