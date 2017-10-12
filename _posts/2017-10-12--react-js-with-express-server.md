@@ -33,3 +33,5 @@ app.listen(app.get('port'), function() {
 ```
 
 $ node index.js
+
+**Note: c9.io doesn't support http (only https), so can't use "$ npm run build" for production build** 
