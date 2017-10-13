@@ -30,8 +30,10 @@ var app = express()
 
 app.set('port', (process.env.PORT || 3000))
 
+// this make /build as the default source directory
 app.use(express.static(__dirname + '/build'))
 
+// this make /build/index.html as the default portal
 app.get('*', function(request, response) {
 	response.sendFile(__dirname + '/build/index.html')	
 })
