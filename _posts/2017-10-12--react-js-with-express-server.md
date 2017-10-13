@@ -28,6 +28,7 @@ $ vi index.js
 var express = require('express')
 var app = express()
 
+// set your server port number to 3000 as below
 app.set('port', (process.env.PORT || 3000))
 
 // this make /build as the default source directory
