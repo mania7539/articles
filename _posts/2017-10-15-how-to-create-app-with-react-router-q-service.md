@@ -2,8 +2,13 @@
 published: true
 ---
 $ create-react-app react-demo-2
+
+$ cd react-demo-2
+
 $ npm install --save events lodash react@15 react-dom@15 react-router@2 history@2
+
 $ npm install --save q
+
 $ npm start
 
 $ vi ./index.js
