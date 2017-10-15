@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 $ create-react-app react-demo-2
 $ npm install --save events lodash react@15 react-dom@15 react-router@2 history@2
@@ -313,8 +313,3 @@ export default Screen2
 // module.exports = Screen2
 
 ```
-
-
-
-
-
