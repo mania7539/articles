@@ -41,7 +41,7 @@ class App extends Component {
 	componentWillMount() {
 		this.eventEmitter = new EventEmitter();
 		
-		// pass a function
+		// pass a function; the refered fucntion name doesn't have to be "updateScreen", you can use any other fucntion name instead
 		this.eventEmitter.addListener("updateScreen", ({screenIndex}) => {
 			this.updateScreen({newScreenIndex: screenIndex});
 		});
