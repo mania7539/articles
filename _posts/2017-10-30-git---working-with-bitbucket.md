@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 * Step by step Cmder commands  
 
