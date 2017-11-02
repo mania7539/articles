@@ -27,7 +27,7 @@ $ git push [short-name] master
 ```
 
 
-* If you can't push to the server and get error below:
+* If you **can't push to bitbucket git server** with error below:
 
 ```
 Warning: Permanently added 'bitbucket.org,104.192.143.3' (RSA) to the list of known hosts.
@@ -38,7 +38,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-* Try the commands with **MINGW64** below:
+* Then try the bash commands with **MINGW64** below:
 
 ```bash
 $ ssh-add -l
