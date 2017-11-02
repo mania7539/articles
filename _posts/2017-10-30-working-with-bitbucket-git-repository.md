@@ -56,7 +56,11 @@ $ ll ~/.ssh
 ```
 
 
-* Open the id_rsa.pub file with text editor and copy paste the contents to Avatar > Bitbucket Settings > SSH Keys > Add key
+* Open the **id_rsa.pub** file with text editor and copy paste the contents to a new SSH key in
+
+```
+Bitbucket Avatar > Bitbucket Settings > SSH Keys > Add key
+```
 
 
 
