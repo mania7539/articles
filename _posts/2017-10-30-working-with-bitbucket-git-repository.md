@@ -27,7 +27,9 @@ $ git push [short-name] master
 ```
 
 
-* If you **can't push to Bitbucket git server** with error below:
+## Getting Error When Pushing to Bitbucket Git Server
+
+* **Git push** with error below:
 
 ```
 Warning: Permanently added 'bitbucket.org,104.192.143.3' (RSA) to the list of known hosts.
@@ -46,7 +48,7 @@ $ ssh-add -l
 
 $ ssh-add ~/.ssh/identity
 	# check the connection to your authentication agent
-    # if getting "Could not open a connection to your authentication agent.", then go to the next steps
+    	# if getting "Could not open a connection to your authentication agent.", then go to the next steps
     
 $ ssh-keygen    
 $ ll ~/.ssh
