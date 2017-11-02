@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-* Step by step Cmder commands  
+* Step by step **Cmder** commands  
 
 
 ```bash
