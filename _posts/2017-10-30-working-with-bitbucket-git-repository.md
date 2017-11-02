@@ -38,7 +38,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-* Try the commands with MINGW64 below:
+* Try the commands with **MINGW64** below:
 
 ```bash
 $ ssh-add -l
