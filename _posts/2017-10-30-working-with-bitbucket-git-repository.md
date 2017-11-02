@@ -27,7 +27,7 @@ $ git push [short-name] master
 ```
 
 
-## Getting Error When Pushing to Bitbucket Git Server
+## Solving Error When Pushing to Bitbucket Git Server
 
 * **Git push** with error below:
 
