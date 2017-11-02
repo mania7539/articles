@@ -27,7 +27,7 @@ $ git push [short-name] master
 ```
 
 
-* If you **can't push to bitbucket git server** with error below:
+* If you **can't push to Bitbucket git server** with error below:
 
 ```
 Warning: Permanently added 'bitbucket.org,104.192.143.3' (RSA) to the list of known hosts.
