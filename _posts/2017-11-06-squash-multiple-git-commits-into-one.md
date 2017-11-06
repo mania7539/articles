@@ -75,3 +75,12 @@ $ git push origin master
 * Now you will get **only one commit** which is pushed in the repository
 
 ![bitbucket_rebase-result.png]({{site.url}}{{site.baseurl}}/images/bitbucket_rebase-result.png)
+
+
+* Note: commit 4, 5, 6 is due to my incorrect manipulations, the commands above will work as a charm
+
+
+## Reference
+[Working With Bitbucket Git Repository]({{site.url}}{{site.baseurl}}/working-with-bitbucket-git-repository.html)
+[Working With Git Branch]({{site.url}}{{site.baseurl}}/working-with-git-branch.html)
+[Create Git Repository With Heroku Cloud Service]({{site.url}}{{site.baseurl}}/create-git-repository-with-heroku-cloud-service.html)
