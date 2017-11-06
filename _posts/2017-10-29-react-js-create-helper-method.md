@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - react-js
+  - react-native
+  - web
+  - js
 ---
 ## Manually Create Your Own Helper Method
 
