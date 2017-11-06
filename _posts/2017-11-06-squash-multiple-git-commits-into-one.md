@@ -29,7 +29,7 @@ $ git commit -m "commit 3"
 $ git push --set-upstream origin master
 ```
 
-![commit-3_push-1.png]({{site.baseurl}}/_posts/commit-3_push-1.png)
+![commit-3_push-1.png]({{site.url}}/{{site.baseurl}}/_posts/commit-3_push-1.png)
 
 
 
