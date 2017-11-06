@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-* Type in commands as below for completing multiple git commit
+* Type in commands as below for completing **multiple git commits**
 
 ```bash	
 $ mkdir branch
@@ -38,7 +38,7 @@ $ git push --set-upstream origin master
 ## How to push the commmits from separate into one?
 
 
-* Type in commands which are similar as previous one, but an additional **git rebase -i**
+* Type in commands which are similar as previous one, but an additional **_git rebase -i**
 
 
 ```bash
@@ -61,13 +61,17 @@ $ git rebase -i
 
 ![rebase_pick-squash.png]({{site.url}}{{site.baseurl}}/images/rebase_pick-squash.png)
 
+* Change the 2nd, 3rd line start from **_pick** (which is the default command) to **_squash**
+```
+```
+
 
 * Then the commit message editor will show up for you to edit commit message
 
 ![rebase_commit-combine-message.png]({{site.url}}{{site.baseurl}}/images/rebase_commit-combine-message.png)
 
 
-* **git push** after rebase and previous steps
+* **_git push** after rebase and previous steps
 
 ```bash	
 # push 1 time #
