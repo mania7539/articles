@@ -1,5 +1,8 @@
 ---
 published: true
+tags:
+  - git
+  - bitbucket
 ---
 * Step by step **Cmder** commands  
 
@@ -65,6 +68,7 @@ Bitbucket Avatar > Bitbucket Settings > SSH Keys > Add key
 ```
 
 
-
+<!--
 ## Reference
 **[Read: Create Git Repository With Heroku Cloud Service](https://mania7539.github.io/articles/create-git-repository-with-heroku-cloud-service.html)**
+-->
