@@ -14,7 +14,7 @@ title: Architect Theme by Jason Long
   <h1>Blog Posts</h1>
   
   {% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
+  <li><a href="{{ site.baseurl }}{{ category | first }}" name="{{ category | first }}">{{ category | first }}</a>
     <ul class="posts">
     {% for posts in category %}
       {% for post in posts %}
