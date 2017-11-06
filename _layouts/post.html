@@ -17,7 +17,9 @@ published: true
 
 {% for tag in page.tags %}
 	{% for post in site.tags[tag] %}
-    	
+    	{% unless array contains post %}
+        	
+    	{% endunless %}
 	{% endfor %}
 {% endfor %}
 
