@@ -47,18 +47,23 @@ $ git commit -m "commit 8"
 $ echo add 9 >> echo.txt
 $ git add .
 $ git commit -m "commit 9"
+
+# rebase - pick and squash #
+$ git rebase -i
 ```
 
+* It will show a rebase interactive editor as below
+
 ![rebase_pick-squash.png]({{site.url}}{{site.baseurl}}/images/rebase_pick-squash.png)
+
+
+* Then the commit message editor will show up for you to edit commit message
 ![rebase_commit-combine-message.png]({{site.url}}{{site.baseurl}}/images/rebase_commit-combine-message.png)
 
 
-```bash
-# rebase - pick and squash #
-$ git rebase -i
-	# image1
-	# image2
-	
+* git push after rebase and previous steps
+
+```bash	
 # push 1 time #
 $ git push origin master
 ```
