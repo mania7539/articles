@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - react-js
+  - react-native
+  - web
+  - js
 ---
 $ create-react-app react-demo-2
 
