@@ -7,7 +7,7 @@ published: true
 ```bash
 $ pip install bitbucket-cli
 $ bitbucket create --private --protocol ssh --scm git YOUR_REPO_NAME
-
+    # enter your username and password
 $ git remote
 	# check if it's a git repository
 $ git init
