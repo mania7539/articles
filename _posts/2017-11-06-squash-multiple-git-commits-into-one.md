@@ -64,7 +64,7 @@ $ git rebase -i
 
 
 * Then the commit message editor will show up as below for you to edit commit message
-* Enter **:x** to save edit and complete the commit
+* Enter **_:x_** to save edit and complete the commit
 
 ![rebase_commit-combine-message.png]({{site.url}}{{site.baseurl}}/images/rebase_commit-combine-message.png)
 
