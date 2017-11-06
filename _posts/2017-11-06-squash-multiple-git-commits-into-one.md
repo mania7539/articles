@@ -58,12 +58,9 @@ $ git rebase -i
 ```
 
 * It will show a rebase interactive editor as below
+* Change the 2nd, 3rd line start from **_pick_** (which is the default command) to **_squash_**
 
 ![rebase_pick-squash.png]({{site.url}}{{site.baseurl}}/images/rebase_pick-squash.png)
-
-* Change the 2nd, 3rd line start from **_pick_** (which is the default command) to **_squash_**
-```
-```
 
 
 * Then the commit message editor will show up for you to edit commit message
