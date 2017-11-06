@@ -1,5 +1,9 @@
 ---
 published: true
+tags:
+  - android
+  - mobile
+  - front-end
 ---
 * Update **styles.xml** with the following code for Light Theme (Theme Version 1)
 
