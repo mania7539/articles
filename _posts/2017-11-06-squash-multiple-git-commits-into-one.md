@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 * Type in commands as below for completing multiple git commit
 
@@ -66,4 +66,3 @@ $ git push origin master
 * Now you will get only one commit to push in the repository
 
 ![bitbucket_rebase-result.png]({{site.baseurl}}/_posts/bitbucket_rebase-result.png)
-
