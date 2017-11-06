@@ -14,7 +14,7 @@ published: true
 <p>
 <h2>Reference</h2>
 {% for category in page.categories %}
-  {% for posts in site.categories[category] %}
+  {% for posts in site.categories.{{ category }} %}
       {% for post in posts %} 
           <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
