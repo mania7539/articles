@@ -35,7 +35,7 @@ $ git push --set-upstream origin master
 
 
 
-## How To Push The Commmits From Separate Into One?
+## How To Squash The Separate Commmits Into One Then Push?
 
 
 * Type in commands which are similar as previous one, but an additional **_git rebase -i_**
