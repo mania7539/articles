@@ -20,9 +20,9 @@ $ git checkout [branch-name=master]
     # Switched to branch 'master'
 ```
 
-## Reference
+<!--## Reference
 * [Squash Multiple Git Commits Into One]({{site.url}}{{site.baseurl}}/squash-multiple-git-commits-into-one.html)
-* [How To Switch To Different Git Commit]({{site.url}}{{site.baseurl}}/how-to-switch-to-different-git-commit.html)
+* [How To Switch To Different Git Commit]({{site.url}}{{site.baseurl}}/how-to-switch-to-different-git-commit.html)-->
 
 ## Future Work
 * 要怎麼用command line merge?
