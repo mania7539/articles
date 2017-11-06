@@ -1,5 +1,9 @@
 ---
 published: true
+tags:
+  - IDE
+  - eclipse
+  - android
 ---
 _Hey pals, in this article, we will focus on how to connect your development kits and tools to Eclipse, so later soon Eclipse can help you build .APK file and deploy to your Android devices._
 
@@ -104,6 +108,6 @@ Windows > Preferences
 
 Then we're done, isn't it as simple as piece of cake?! :)
 
+<!--
 ### Relevant Articles for Further Reading
-
-
+-->
