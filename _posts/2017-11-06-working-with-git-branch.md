@@ -22,8 +22,6 @@ $ git checkout [branch-name=master]
 * [How To Switch To Different Git Commit]({{site.url}}{{site.baseurl}}/how-to-switch-to-different-git-commit.html)
 
 ## Future Work
-* 要怎麼切換到比較先前的commit?
-* 如果切換到不同的branch，會在commit的什麼位置?
 * 要怎麼用command line merge?
 * 如果用command line merge，出現conflict的時候要怎麼處理?
 * 這些問題應該都可以用一個新的git test repository來測試
