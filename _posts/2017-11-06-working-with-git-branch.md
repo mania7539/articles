@@ -16,6 +16,7 @@ git checkout [branch-name]
 ## Reference
 (http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
 
+
 ## Future Work
 
 要怎麼切換到比較先前的commit?
@@ -26,4 +27,3 @@ git checkout [branch-name]
 
 
 	## 這些問題應該都可以用一個新的git test repository來測試 ##
-
