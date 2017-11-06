@@ -14,7 +14,6 @@ $ git checkout [branch-name]
 
 ## Reference
 * [Squash Multiple Git Commits Into One]({{site.url}}{{site.baseurl}}/squash-multiple-git-commits-into-one.html)
-* [http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
 
 ## Future Work
 * 要怎麼切換到比較先前的commit?
