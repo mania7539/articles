@@ -53,6 +53,13 @@ $ echo add 9 >> main.txt
 $ git add .
 $ git commit -m "commit 9"
 
+# check status #
+$ git status
+	# On branch master
+	# Your branch is ahead of 'origin/master' by 3 commits.
+	#  	(use "git push" to publish your local commits)
+	# nothing to commit, working tree clean
+
 # rebase - pick and squash #
 $ git rebase -i
 ```
@@ -74,7 +81,11 @@ $ git rebase -i
 ```bash	
 # check status #
 $ git status
-
+	# On branch master
+	# Your branch is ahead of 'origin/master' by 1 commit.
+  	#	(use "git push" to publish your local commits)
+	# nothing to commit, working tree clean
+    
 # push 1 time #
 $ git push origin master
 ```
