@@ -4,12 +4,17 @@ published: true
 * Type in commands in console (bash or cmd)
 
 ```bash
-$ git checkout -b [new-branch-name]
-	# create new branch
+# create new branch #
+$ git checkout -b [new-branch-name=arc_2017-11-06]
+
+# list all branch #
 $ git branch
-	# list all branch
-$ git checkout [branch-name]
-	# move to the branch
+    # * master
+    # arc_2017-11-06
+    
+# move to the branch #
+$ git checkout [branch-name=master]
+    # Switched to branch 'master'
 ```
 
 ## Reference
