@@ -10,7 +10,7 @@ $ git checkout -b [new-branch-name=arc_2017-11-06]
 # list all branch #
 $ git branch
 	# * arc_2017-11-06
-    # master
+	# master
     
 # move to the branch #
 $ git checkout [branch-name=master]
