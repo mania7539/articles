@@ -29,6 +29,8 @@ $ git commit -m "commit 3"
 $ git push --set-upstream origin master
 ```
 
+* You can see the result from my bitbucket repository due to push
+
 ![commit-3_push-1.png]({{site.url}}{{site.baseurl}}/images/commit-3_push-1.png)
 
 
