@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-* Type in commands as below for completing **multiple git commits**
+* Type in commands as below for completing **multiple git commits** and **_push_**
 
 ```bash	
 $ mkdir branch
