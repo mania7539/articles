@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 * Type in commands in console (bash or cmd)
 
