@@ -1,5 +1,8 @@
 ---
 published: true
+tags:
+  - git
+  - bitbucket
 ---
 * Type in commands as below for completing **multiple git commits** and **_push_**
 
