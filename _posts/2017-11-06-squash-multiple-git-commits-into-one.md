@@ -63,7 +63,8 @@ $ git rebase -i
 ![rebase_pick-squash.png]({{site.url}}{{site.baseurl}}/images/rebase_pick-squash.png)
 
 
-* Then the commit message editor will show up for you to edit commit message
+* Then the commit message editor will show up as below for you to edit commit message
+* Enter **:x** to save edit and complete the commit
 
 ![rebase_commit-combine-message.png]({{site.url}}{{site.baseurl}}/images/rebase_commit-combine-message.png)
 
@@ -76,7 +77,6 @@ $ git push origin master
 ```
 
 * Now you will get **only one commit** which is pushed in the repository
-* Enter **:x** to save edit and complete the commit
 
 ![bitbucket_rebase-result.png]({{site.url}}{{site.baseurl}}/images/bitbucket_rebase-result.png)
 
