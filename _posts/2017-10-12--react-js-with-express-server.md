@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - react-js
+  - react-native
+  - web
+  - js
 ---
 
 * Describe in the sequence of bash command
