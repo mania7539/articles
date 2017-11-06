@@ -1,5 +1,11 @@
 ---
 published: true
+tags:
+  - android
+  - mobile
+  - front-end
+  - firebase
+  - database
 ---
 ## Learn From Online Resource
 * Learning from [Simplified Coding](https://www.simplifiedcoding.net/firebase-cloud-messaging-android/)
