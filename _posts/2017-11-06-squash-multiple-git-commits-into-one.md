@@ -88,6 +88,13 @@ $ git status
     
 # push 1 time #
 $ git push origin master
+	# Counting objects: 3, done.
+	# Delta compression using up to 8 threads.
+	# Compressing objects: 100% (2/2), done.
+	# Writing objects: 100% (3/3), 268 bytes | 0 bytes/s, done.
+	# Total 3 (delta 0), reused 0 (delta 0)
+	# To bitbucket.org:mania7539/branch.git
+   	# b0220eb..4f940d4  master -> master
 ```
 
 * Now you will get **only ONE commit** which is pushed in the repository
