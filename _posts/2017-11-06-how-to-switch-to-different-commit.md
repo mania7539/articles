@@ -48,7 +48,7 @@ $ git checkout [branch-name=master]
 
 
 * Since we are using **_git checkout [branch-name=master]_**
-* We should be in the **up-to-date** commit 
+* We should be in the **up-to-date** commit of the branch
 
 
 ```bash
