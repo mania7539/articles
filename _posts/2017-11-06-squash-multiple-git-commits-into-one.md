@@ -61,16 +61,17 @@ $ git rebase -i
 
 
 * Then the commit message editor will show up for you to edit commit message
+
 ![rebase_commit-combine-message.png]({{site.url}}{{site.baseurl}}/images/rebase_commit-combine-message.png)
 
 
-* git push after rebase and previous steps
+* **git push** after rebase and previous steps
 
 ```bash	
 # push 1 time #
 $ git push origin master
 ```
 
-* Now you will get only one commit to push in the repository
+* Now you will get **only one commit** which is pushed in the repository
 
 ![bitbucket_rebase-result.png]({{site.url}}{{site.baseurl}}/images/bitbucket_rebase-result.png)
