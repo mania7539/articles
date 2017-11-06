@@ -13,15 +13,38 @@ published: true
 
 <p>
 <h2>Reference</h2>
+{% assign temp = array[1] %}
+
+{% for tag in page.tags %}
+	{% for post in site.tags[tag] %}
+    	{% unless temp contains post %}
+        	{% capture temp %}{{ temp }}|{{ post }}{% endcapture %}
+    	{% endunless %}
+	{% endfor %}
+{% endfor %}
+
+{{ temp | split: '|' | sort | join: ', ' }}
+
+{% for post in temp %}
+	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</p>
+
+<!--
+<p>
+<h2>Reference</h2>
 {% for tag in page.tags %}
 	<li>{{tag}}</li>
 	{% for post in site.tags[tag] %}
+		{{% if %}}
 		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 {% endfor %}
 </p>
+-->
 
-<!--<p>
+<!--
+<p>
 <h2>Reference</h2>
 {% for category in page.categories %}
   {% for post in site.categories[category] %}
