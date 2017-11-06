@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-* Type in command in console (bash or cmd)
+* Type in commands in console (bash or cmd)
 
 ```bash
 $ git checkout -b [new-branch-name]
