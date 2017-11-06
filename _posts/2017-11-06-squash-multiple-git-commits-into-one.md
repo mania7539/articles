@@ -38,7 +38,7 @@ $ git push --set-upstream origin master
 ## How to push the commmits from separate into one?
 
 
-* Type in commands which are similar as previous one, but an additional **_git rebase -i**
+* Type in commands which are similar as previous one, but an additional **_git rebase -i_**
 
 
 ```bash
@@ -61,7 +61,7 @@ $ git rebase -i
 
 ![rebase_pick-squash.png]({{site.url}}{{site.baseurl}}/images/rebase_pick-squash.png)
 
-* Change the 2nd, 3rd line start from **_pick** (which is the default command) to **_squash**
+* Change the 2nd, 3rd line start from **_pick_** (which is the default command) to **_squash_**
 ```
 ```
 
@@ -71,7 +71,7 @@ $ git rebase -i
 ![rebase_commit-combine-message.png]({{site.url}}{{site.baseurl}}/images/rebase_commit-combine-message.png)
 
 
-* **_git push** after rebase and previous steps
+* **_git push_** after rebase and previous steps
 
 ```bash	
 # push 1 time #
