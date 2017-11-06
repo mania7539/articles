@@ -76,6 +76,7 @@ $ git push origin master
 ```
 
 * Now you will get **only one commit** which is pushed in the repository
+* Enter **:x** to save edit and complete the commit
 
 ![bitbucket_rebase-result.png]({{site.url}}{{site.baseurl}}/images/bitbucket_rebase-result.png)
 
