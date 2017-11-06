@@ -19,6 +19,7 @@ $ git checkout [branch-name=master]
 
 ## Reference
 * [Squash Multiple Git Commits Into One]({{site.url}}{{site.baseurl}}/squash-multiple-git-commits-into-one.html)
+* [How To Switch To Different Git Commit]({{site.url}}{{site.baseurl}}/how-to-switch-to-different-git-commit.html)
 
 ## Future Work
 * 要怎麼切換到比較先前的commit?
