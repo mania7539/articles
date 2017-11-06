@@ -81,7 +81,7 @@ $ git push origin master
 ![bitbucket_rebase-result.png]({{site.url}}{{site.baseurl}}/images/bitbucket_rebase-result.png)
 
 
-* Note: commit 4, 5, 6 is due to my incorrect manipulations, the commands above will work as a charm
+* Note: commit 4, 5, 6 is due to my incorrect manipulations, the commands above will work like a charm
 
 
 ## Reference
