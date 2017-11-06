@@ -1,11 +1,10 @@
 ---
 published: false
+tags:
+  - android
+  - mobile
+  - front-end
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
-
-
 * Update **styles.xml** with the following code for Light Theme
 
 
