@@ -13,13 +13,12 @@ published: true
 
 <p>
 <h2>Reference</h2>
-{% assign array = '' %}
+{% assign array = '|' %}
 
 {% for tag in page.tags %}
 	{% for post in site.tags[tag] %}
     	{% unless array contains post %}
-        	<!--{% capture array %}{{ array }}|{{ post }}{% endcapture %}-->
-			{{ array | append: "|" | append: post }}
+        	{% capture array %}{{ array }}|{{ post }}{% endcapture %}
     	{% endunless %}
 	{% endfor %}
 {% endfor %}
