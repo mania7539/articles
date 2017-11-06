@@ -1,5 +1,9 @@
 ---
 published: true
+tags:
+  - android
+  - mobile
+  - front-end
 ---
 ## Implement Main Layout
 
