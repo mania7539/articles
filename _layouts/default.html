@@ -33,13 +33,6 @@
         <section id="main-content">
           
           {{ content }}
-
-          <p>
-          <h2>Reference</h2>
-          {% for post in page.categories %}
-              <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-          </p>
         
           <section>
             <div id="disqus_thread"></div>
