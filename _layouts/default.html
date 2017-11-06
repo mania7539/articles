@@ -37,7 +37,7 @@
           <p>
           <h2>Reference</h2>
           {% for post in page.categories %}
-              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+              <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
           </p>
         
