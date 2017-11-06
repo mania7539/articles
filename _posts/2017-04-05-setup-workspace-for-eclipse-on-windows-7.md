@@ -1,5 +1,11 @@
 ---
 published: true
+tags:
+  - IDE
+  - eclipse
+  - android
+  - windows
+  - workspace
 ---
 _For using Eclipse, the first step is creating your coding workspace which everytime you can open it and load your preferences to get on work. In this article you will learn how to setup network disk and import your project on that to your workspace so later you can build your Android codes with Eclipse._
 
@@ -48,4 +54,6 @@ Then we can make things done!
 ### (Optional) Multiple Workspaces for Easily Switching Preferences 
 Since you can use different workspace to store different settings and preferences of Eclipse environment, creating more than one workspaces will help you easily get into another working environment quick if you have more than one huge projects which includes multiple Android library projects and main project.
 
+<!--
 ### Relevant Articles for Further Reading
+-->
