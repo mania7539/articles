@@ -13,7 +13,7 @@ $ git checkout [branch-name]
 ```
 
 ## Reference
-http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
+[http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html)
 
 
 ## Future Work
