@@ -49,8 +49,8 @@ $ git add .
 $ git commit -m "commit 9"
 ```
 
-![rebase_pick-squash.png]({{site.baseurl}}/_posts/rebase_pick-squash.png)
-![rebase_commit-combine-message.png]({{site.baseurl}}/_posts/rebase_commit-combine-message.png)
+![rebase_pick-squash.png]({{site.url}}{{site.baseurl}}/images/rebase_pick-squash.png)
+![rebase_commit-combine-message.png]({{site.url}}{{site.baseurl}}/images/rebase_commit-combine-message.png)
 
 
 ```bash
@@ -65,4 +65,4 @@ $ git push origin master
 
 * Now you will get only one commit to push in the repository
 
-![bitbucket_rebase-result.png]({{site.baseurl}}/_posts/bitbucket_rebase-result.png)
+![bitbucket_rebase-result.png]({{site.url}}{{site.baseurl}}/images/bitbucket_rebase-result.png)
