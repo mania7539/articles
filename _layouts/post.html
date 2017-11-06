@@ -14,6 +14,7 @@ published: true
 <p>
 <h2>Reference</h2>
 {% for tag in page.tags %}
+	<li>{{tag}}</li>
 	{% for post in site.tags[tag] %}
 		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
