@@ -13,7 +13,7 @@ published: true
 
 <p>
 <h2>Reference</h2>
-{% assign array = '.' %}
+{% assign array = '' %}
 
 {% for tag in page.tags %}
 	{% for post in site.tags[tag] %}
@@ -23,7 +23,7 @@ published: true
 	{% endfor %}
 {% endfor %}
 
-{{ array | split: '|||' | sort }}
+{{ array | split: '|||' }}
 
 {% for post in array %}
 	<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
