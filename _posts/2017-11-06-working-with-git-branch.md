@@ -5,11 +5,11 @@ published: true
 
 ```bash
 $ git checkout -b [new-branch-name]
-	## create new branch
+	# create new branch
 $ git branch
-	## list all branch
+	# list all branch
 $ git checkout [branch-name]
-	## move to the branch
+	# move to the branch
 ```
 
 ## Reference
