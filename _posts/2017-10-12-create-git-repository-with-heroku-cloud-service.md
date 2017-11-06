@@ -1,5 +1,10 @@
 ---
 published: true
+tags:
+  - react-js
+  - react-native
+  - web
+  - js
 ---
 * Step by step bash commands  
 
@@ -31,6 +36,7 @@ $ git push [short-name] master
 	# the shortname should be as the same one as the above command
 ```
 
-
+<!--
 ## Reference
 **[Read: Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app)**
+-->
