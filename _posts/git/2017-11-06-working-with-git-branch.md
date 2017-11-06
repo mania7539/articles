@@ -17,7 +17,7 @@ $ git checkout [branch-name=master]
     # Switched to branch 'master'
 ```
 
-## Reference
+## Reference (script)
     {% for post in site.categories.git %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
