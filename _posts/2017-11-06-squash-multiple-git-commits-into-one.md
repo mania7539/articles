@@ -76,7 +76,7 @@ $ git rebase -i
 $ git push origin master
 ```
 
-* Now you will get **only one commit** which is pushed in the repository
+* Now you will get **only ONE commit** which is pushed in the repository
 
 ![bitbucket_rebase-result.png]({{site.url}}{{site.baseurl}}/images/bitbucket_rebase-result.png)
 
