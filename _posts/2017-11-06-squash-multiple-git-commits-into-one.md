@@ -15,13 +15,13 @@ $ git remote
 $ git remote add git@bitbucket.org:mania7539/[YOUR_REPO_NAME=branch]
 
 # edit file and commit for 3 times" #
-$ echo add 1 > echo.txt
+$ echo add 1 > main.txt
 $ git add .
 $ git commit -m "commit 1"
-$ echo add 2 >> echo.txt
+$ echo add 2 >> main.txt
 $ git add .
 $ git commit -m "commit 2"
-$ echo add 3 >> echo.txt
+$ echo add 3 >> main.txt
 $ git add .
 $ git commit -m "commit 3"
 
@@ -43,13 +43,13 @@ $ git push --set-upstream origin master
 
 ```bash
 # edit file and commit for 3 times" #
-$ echo add 7 > echo.txt
+$ echo add 7 > main.txt
 $ git add .
 $ git commit -m "commit 7"
-$ echo add 8 >> echo.txt
+$ echo add 8 >> main.txt
 $ git add .
 $ git commit -m "commit 8"
-$ echo add 9 >> echo.txt
+$ echo add 9 >> main.txt
 $ git add .
 $ git commit -m "commit 9"
 
@@ -72,6 +72,9 @@ $ git rebase -i
 * **_git push_** after rebase and previous steps
 
 ```bash	
+# check status #
+$ git status
+
 # push 1 time #
 $ git push origin master
 ```
