@@ -12,24 +12,11 @@ title: Architect Theme by Jason Long
 -->
 <div id="home">
   <h1>Blog Posts</h1>
-  
-  {% for category in site.categories %}
-  <li><a href="{{ site.baseurl }}{{ category | first }}" name="{{ category | first }}">{{ category | first }}</a>
-    <ul class="posts">
-    {% for posts in category %}
-      {% for post in posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    {% endfor %}
-    </ul>
-  </li>
-  {% endfor %}
-  
-  <!--
+
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-  -->
+
 </div>
