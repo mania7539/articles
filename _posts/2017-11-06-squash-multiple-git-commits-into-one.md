@@ -81,6 +81,6 @@ $ git push origin master
 
 
 ## Reference
-[Working With Bitbucket Git Repository]({{site.url}}{{site.baseurl}}/working-with-bitbucket-git-repository.html)
-[Working With Git Branch]({{site.url}}{{site.baseurl}}/working-with-git-branch.html)
-[Create Git Repository With Heroku Cloud Service]({{site.url}}{{site.baseurl}}/create-git-repository-with-heroku-cloud-service.html)
+* [Working With Bitbucket Git Repository]({{site.url}}{{site.baseurl}}/working-with-bitbucket-git-repository.html)
+* [Working With Git Branch]({{site.url}}{{site.baseurl}}/working-with-git-branch.html)
+* [Create Git Repository With Heroku Cloud Service]({{site.url}}{{site.baseurl}}/create-git-repository-with-heroku-cloud-service.html)
