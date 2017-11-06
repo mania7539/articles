@@ -1,5 +1,8 @@
 ---
 published: true
+tags:
+  - git
+  - bitbucket
 ---
 * Type in commands in console (bash or cmd)
 
