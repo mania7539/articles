@@ -4,11 +4,11 @@ published: true
 * Type in command in console (bash or cmd)
 
 ```bash
-git checkout -b [new-branch-name]
+$ git checkout -b [new-branch-name]
 	## create new branch
-git branch
+$ git branch
 	## list all branch
-git checkout [branch-name]
+$ git checkout [branch-name]
 	## move to the branch
 ```
 
