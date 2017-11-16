@@ -1,5 +1,8 @@
 ---
-published: false
+published: true
+tags:
+  - javascript
+  - react-js
 ---
 * in Cmder
 
