@@ -51,7 +51,7 @@ export default App;
 
 * **Add your code snippet** to the **test code position** as above shown
 * **Press *F5* on your keyboard** each time you update and save your code
-* Then you can **validate your result with your browser** by opening *Console* interface of them <br />*(Chrome: Mouse Action: __Right Click > Inspect__ or Keyboard Action: __Ctrl+Shift+I__)*.
+* Then you can **validate your result with your browser** by opening *Console* interface of them *(Chrome: Mouse Action: __Right Click > Inspect__ or Keyboard Action: __Ctrl+Shift+I__)*.
 
 <br />
 <br />
