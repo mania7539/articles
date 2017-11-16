@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="fluid-container">
-      <input onChange={this.learn.bind(this, "name")} className="form-control" type="text" placeholder="Name" /><br />
+      	<input onChange={this.learn.bind(this, "name")} className="form-control" type="text" placeholder="Name" /><br />
       </div>
 	);
   }
