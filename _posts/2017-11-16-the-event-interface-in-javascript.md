@@ -5,7 +5,7 @@ tags:
   - event
   - react-js
 ---
-### [Way to Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+### [Visit Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
 1. The **_'event'_** keyword is the **Event interface**.
 
@@ -24,7 +24,7 @@ tags:
 <br />
 
 ## What is the 'event.target' property?
-### [Way to Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
+### [Visit Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
 
 * A reference to the **object that dispatched the event**.
 * The **_'event.target'_** property can be used in order to **implement event delegation**.
