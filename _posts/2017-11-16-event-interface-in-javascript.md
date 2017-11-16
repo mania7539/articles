@@ -27,6 +27,6 @@ tags:
 ## What is the 'event.target' property?
 ### [Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
 
-* A reference to the object that dispatched the event.
+* A reference to the **object that dispatched the event**.
 
-* The event.target property can be used in order to implement event delegation.
+* The event.target property can be used in order to **implement event delegation**.
