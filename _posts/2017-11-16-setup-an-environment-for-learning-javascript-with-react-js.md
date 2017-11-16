@@ -21,7 +21,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-	
+  
+  // add a custom function: 'learn' or you can use any other name you want, just remember to update the function name used in onChange property of <input> tag in the render function below.
   learn(field, event) {
     // if you don't pass value to field, it will be 'undefined',
     // but if you don't pass value to 'event', it will still be there
