@@ -40,7 +40,7 @@ class App extends Component {
 ```
 
 
-* **Add code snippet** to the **test code position** as above shown, **press *F5* each time you update your code**, then you can **validate your result with your browser**.
+* **Add code snippet** to the **test code position** as above shown, **press *F5* on your keyboard** each time you update and save your code, then you can **validate your result with your browser**.
 
 <br />
 <br />
