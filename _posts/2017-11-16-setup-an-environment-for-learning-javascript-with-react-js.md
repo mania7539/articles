@@ -22,8 +22,11 @@ class App extends Component {
 	learn(field, event) {
 		// if you don't pass value to field, it will be 'undefined',
 		// but if you don't pass value to 'event', it will still be there
-		// type your test code here:
-		
+		// type your test code below
+      
+      
+      
+      	// type your test code above
 	}
 
 	render() {
