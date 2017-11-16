@@ -27,7 +27,7 @@ tags:
 ### [Way to Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
 
 * A reference to the **object that dispatched the event**.
-* The event.target property can be used in order to **implement event delegation**.
+* The **_'event.target'_** property can be used in order to **implement event delegation**.
 <br />
 <br />
 <br />
