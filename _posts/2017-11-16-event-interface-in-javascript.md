@@ -22,7 +22,6 @@ tags:
 4. Event itself **contains the properties and methods** which are common to all events.
 
 <br />
-<br />
 
 ## What is the 'event.target' property?
 ### [Way to Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
