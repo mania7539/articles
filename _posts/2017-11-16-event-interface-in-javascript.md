@@ -28,7 +28,8 @@ tags:
 
 * A reference to the **object that dispatched the event**.
 * The event.target property can be used in order to **implement event delegation**.
-
-
-
-
+<br />
+<br />
+<br />
+<br />
+<br />
