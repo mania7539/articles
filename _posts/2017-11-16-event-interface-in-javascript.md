@@ -21,15 +21,14 @@ tags:
 
 4. Event itself **contains the properties and methods** which are common to all events.
 
-
+<br />
+<br />
 
 ## What is the 'event.target' property?
 ### [Way to Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
 
 * A reference to the **object that dispatched the event**.
 * The **_'event.target'_** property can be used in order to **implement event delegation**.
-<br />
-<br />
 <br />
 <br />
 <br />
