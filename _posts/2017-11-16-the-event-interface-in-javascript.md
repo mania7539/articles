@@ -7,7 +7,7 @@ tags:
 ---
 ### [Way to Official API Document](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
-1. The **_'event'_** keyword is the **Event interface**
+1. The **_'event'_** keyword is the **Event interface**.
 
 2. The Event interface represents **_any event which takes place in the DOM_**
 	- Some are user-generated 
