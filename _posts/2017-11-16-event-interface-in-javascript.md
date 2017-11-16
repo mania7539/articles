@@ -5,9 +5,9 @@ tags:
   - event
   - react-js
 ---
-## What is the 'event' keyword?
 https://developer.mozilla.org/en-US/docs/Web/API/Event
 
+* The **'event'** keyword is the **Event interface**
 * The Event interface represents **any event which takes place in the DOM**; 
 	- some are user-generated 
 		(such as mouse or keyboard events), 
