@@ -4,7 +4,7 @@ tags:
   - javascript
   - react-js
 ---
-* in Cmder (for Windows) or your bash (for Linux) console
+* in **Cmder (for Windows)** or your **Bash (for Linux)** console
 
 ```bat
 $ create-react-app [any-name: learning-app]
@@ -40,7 +40,9 @@ class App extends Component {
 ```
 
 
-* **Add code snippet** to the **test code position** as above shown, **press *F5* on your keyboard** each time you update and save your code, then you can **validate your result with your browser**.
+* **Add code snippet** to the **test code position** as above shown
+* **Press *F5* on your keyboard** each time you update and save your code
+* Then you can **validate your result with your browser**.
 
 <br />
 <br />
