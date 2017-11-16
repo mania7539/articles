@@ -17,6 +17,9 @@ $ npm start
 * In the path *learning-app/src/App.js*
 
 ```javascript
+import React, { Component } from 'react';
+import './App.css';
+
 class App extends Component {
 	
   learn(field, event) {
@@ -37,6 +40,9 @@ class App extends Component {
     );
   }
 }
+
+export default App;
+
 ```
 
 
