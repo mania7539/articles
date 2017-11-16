@@ -4,7 +4,7 @@ tags:
   - javascript
   - react-js
 ---
-* in Cmder (for Windows) or your bash console
+* in Cmder (for Windows) or your bash (for Linux) console
 
 ```bat
 $ create-react-app [any-name: learning-app]
