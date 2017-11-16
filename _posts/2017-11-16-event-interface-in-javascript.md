@@ -5,7 +5,7 @@ tags:
   - event
   - react-js
 ---
-## 'event'
+## What is the 'event' keyword?
 https://developer.mozilla.org/en-US/docs/Web/API/Event
 
 * The Event interface represents **any event which takes place in the DOM**; 
@@ -21,7 +21,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Event
 
 
 
-## 'event.target'
+## What is the 'event.target' property?
 https://developer.mozilla.org/en-US/docs/Web/API/Event/target
 
 * A reference to the object that dispatched the event.
