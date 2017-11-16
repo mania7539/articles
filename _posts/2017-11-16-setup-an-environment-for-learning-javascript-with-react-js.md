@@ -19,23 +19,23 @@ $ npm start
 ```javascript
 class App extends Component {
 	
-	learn(field, event) {
-      // if you don't pass value to field, it will be 'undefined',
-      // but if you don't pass value to 'event', it will still be there
-      // type your test code below
+  learn(field, event) {
+    // if you don't pass value to field, it will be 'undefined',
+    // but if you don't pass value to 'event', it will still be there
+    // type your test code below
 
 
 
-      // type your test code above
-	}
+    // type your test code above
+  }
 
-	render() {
-		return (
-		  <div className="fluid-container">
-			<input onChange={this.learn.bind(this, "name")} className="form-control" type="text" placeholder="Name" /><br />
-		  </div>
-		);
-	}
+  render() {
+    return (
+      <div className="fluid-container">
+      <input onChange={this.learn.bind(this, "name")} className="form-control" type="text" placeholder="Name" /><br />
+      </div>
+	);
+  }
 }
 ```
 
