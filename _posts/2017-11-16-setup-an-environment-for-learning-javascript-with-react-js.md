@@ -12,9 +12,9 @@ $ cd learning-app
 $ npm start
 ```
 
-* Prepare your browser
-* Open a IDE or a text editor
-* In the path src/App.js
+* Prepare your browser *(Chrome, Firefox, Internet Explorer, etc..)*
+* Open an *IDE* or a *text editor*
+* In the path *learning-app/src/App.js*
 
 ```javascript
 class App extends Component {
