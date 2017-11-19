@@ -25,8 +25,12 @@ $ vi .gitignore
 $ git commit -m "first commit"
 $ git status
 	# check the added and modified files again
-$ git push [short-name] master
-	# the shortname should be as the same one as the above command
+$ git push [short-name: origin] [branch-name: video2_2017-11-15]
+	# the branch-name should be as the same one as your branch of commit is (normally it's 'master')
+    # or you will get error message as below:
+    # 	fatal: 'video2_2017-11-15' does not appear to be a git repository
+	# 	fatal: Could not read from remote repository.
+    #
 ```
 
 
