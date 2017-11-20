@@ -33,7 +33,10 @@ $ git push [short-name: origin] [branch-name: video2_2017-11-15]
 	#
 ```
 
-* Merge branch after you complete the feature or solve the software issue
+## Merge branch after you complete the feature or solve the software issue
+
+* Fast-Forward Merge
+
 
 ```bash
 $ git checkout master
@@ -45,6 +48,22 @@ $ git branch -d [new-feature: video2_2017-11-15]
     
 ```
 
+* 3-Way Merge
+Someone merge their works into master before you merge your branch
+
+```bash
+$ git mergetool
+	# It opens a GUI that steps you through each conflict, and you get to choose how to merge. Sometimes it 	# requires a bit of hand editing afterwards, but usually it's enough by itself. It is much better than
+    # doing the whole thing by hand certainly.
+    #
+    # or you can try:
+    #
+    # $ git config --global merge.conflictstyle diff3
+    #
+    # 	In addition to the <<<<<<<, =======, and >>>>>>> markers, it uses another ||||||| marker 
+    # 	that is followed by the original text.
+    #
+```
 
 ## Solving Error When Pushing to Bitbucket Git Server
 
