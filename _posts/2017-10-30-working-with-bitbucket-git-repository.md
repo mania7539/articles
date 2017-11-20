@@ -33,6 +33,18 @@ $ git push [short-name: origin] [branch-name: video2_2017-11-15]
 	#
 ```
 
+* Merge branch after you complete the feature or solve the software issue
+
+```bash
+$ git checkout master
+	# switch branch from branch-name: 'video2_2017-11-15' to 'master'
+$ git merge [new-feature: video2_2017-11-15]
+	# merge the last node of 'video2_2017-11-15' to 'master' 
+$ git branch -d [new-feature: video2_2017-11-15]
+	# delete the branch
+    
+```
+
 
 ## Solving Error When Pushing to Bitbucket Git Server
 
