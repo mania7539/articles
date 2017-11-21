@@ -8,13 +8,19 @@ tags:
 ---
 
 
-* Install module for the react js and redux project
+* Setup modules for the react js and redux project before you run your npm server
 
 ```bash
 $ npm i -S react react-redux redux react-dom redux-thunk 
-
 ```
 
+## Write React JS in Redux Concept
+
+* You can create a new empty file with the batch command
+
+```
+$ echo.> [filename: index.js]
+```
 
 * /src/action/
 
