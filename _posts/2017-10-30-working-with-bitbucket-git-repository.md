@@ -33,6 +33,13 @@ $ git push [short-name: origin] [branch-name: video2_2017-11-15]
 	#
 ```
 
+* Discard changes git command
+
+```bash
+$ git stash -u
+```
+
+
 ## Merge branch after you complete the feature or solve the software issue
 
 * Fast-Forward Merge
@@ -64,6 +71,7 @@ $ git mergetool
     # 	that is followed by the original text.
     #
 ```
+
 
 ## Solving Error When Pushing to Bitbucket Git Server
 
