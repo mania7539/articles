@@ -14,7 +14,7 @@ tags:
 $ npm i -S react react-redux redux react-dom redux-thunk 
 ```
 
-## Write React JS in Redux Concept
+## Write React Js in Redux Concept
 
 * You can create a new empty file with the batch command
 
@@ -157,6 +157,8 @@ export {
 
 
 ```js
+/* todoReducer.js */
+
 import constants from '../constant';
 
 var initialState = {
