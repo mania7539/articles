@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+tags:
+  - react-js
+  - javascript
+  - redux
+  - web
 ---
 
 
