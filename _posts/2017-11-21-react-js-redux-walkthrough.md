@@ -139,6 +139,10 @@ export default connect(stateToProps, dispatchToProps)(Todo);
 ```js
 /* index.js */
 
+export default {
+    HELLO: 'Hello'
+}
+
 ```
 
 
