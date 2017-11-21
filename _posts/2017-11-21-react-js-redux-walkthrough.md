@@ -140,7 +140,7 @@ export default connect(stateToProps, dispatchToProps)(Todo);
 /* index.js */
 
 export default {
-    HELLO: 'Hello'
+    CREATE_TODO_ITEM: 'CREATE_TODO_ITEM'
 }
 
 ```
@@ -195,7 +195,7 @@ export default (state = initialState, action) => {
 
 import { createStore, applyMiddleware, combineReducers } from "redux";
 import thunk from "redux-thunk";
-import { todoReducer } from "../reducer";
+import { todoReducer } from "../reducer"; // 'todoReducer' is in a json object
 
 let stores = null;
 
