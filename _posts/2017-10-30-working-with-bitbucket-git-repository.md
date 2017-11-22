@@ -17,6 +17,9 @@ $ git init
 $ git remote
     # check again
 $ git remote add [short-name: origin] git@bitbucket.org:mania7539/YOUR_REPO_NAME.git
+	# remove current remote repository
+    # $ git remote rm [short-name: origin]
+    #
 $ git add .
 	# can check the difference of the updated files with:
     # $ git diff --cached
