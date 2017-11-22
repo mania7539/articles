@@ -50,6 +50,7 @@ export default {
 
 import React, { Component } from 'react';
 import { connect } from "react-redux";
+import action from "../../action";
 
 class Todo extends Component {
     constructor() {
@@ -83,11 +84,13 @@ class Todo extends Component {
         //     todoList: todoList,
         //     nextTodo: { name: '', description: '' } // use this line to clear the text which was typed in the input fields
         // });
+      
+      	this.props.createTodoItem(this.state.nextTodo);
 
     }
 
     render() {
-        // grab the todo from the reducer 'todo' and get property 'todos'
+        // grab the props for the reducer 'todo' and get property 'todos'
         const todoList = this.props.todo.todos;
         return (
             <div className="container-fluid">
@@ -124,7 +127,7 @@ const stateToProps = (state) => {
 
 const dispatchToProps = (dispatch) => {
     return {
-
+		createTodoItem: (todo) => dispatch(action.createTodoItem(todo))
     }
 }
 
@@ -164,6 +167,7 @@ export {
 /* todoReducer.js */
 
 import constants from '../constant';
+import action from "../../action";
 
 var initialState = {
     todos: [
@@ -176,9 +180,12 @@ var initialState = {
 export default (state = initialState, action) => {
     switch (action.type) {
         case (constants.CREATE_TODO_ITEM):
-            console.log("CREATE_TODO_ITEM");
-            return state;
-        
+            console.log("CREATE_TODO_ITEM: " + JSON.stringify(action.data));
+            let todos = Object.assign([], newState.todos);
+            todos.push(action.data);
+            newState['todos'] = todos;
+
+        	return newState;
         default: 
             return state;
 
@@ -215,6 +222,7 @@ export default {
         return stores;
     },
 
+  	/* Not necessary at the first time */
     getCurrentStore() {
         return stores;
     }
@@ -245,5 +253,18 @@ class App extends Component {
 }
 
 export default App;
+
+```
+
+
+```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 ```
