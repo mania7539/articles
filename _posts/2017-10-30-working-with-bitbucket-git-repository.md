@@ -23,7 +23,9 @@ $ git remote add [short-name: origin] git@bitbucket.org:mania7539/YOUR_REPO_NAME
 $ git add .
 	# can check the difference of the updated files with:
     # $ git diff --cached
-    #
+    # 
+    # can undo the add all with 
+    # $ git reset .
 $ git status
     # check the added and modified files 
 $ vi .gitignore
