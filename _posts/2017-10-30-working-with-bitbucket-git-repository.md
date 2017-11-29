@@ -24,7 +24,7 @@ $ git add .
 	# can check the difference of the updated files with:
     # $ git diff --cached
     # 
-    # can undo the add all with 
+    # can undo this command with 
     # $ git reset .
 $ git status
     # check the added and modified files 
