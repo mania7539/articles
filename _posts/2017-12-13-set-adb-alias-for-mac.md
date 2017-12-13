@@ -9,7 +9,7 @@ tags: 'android, mac'
 $ sudo ln -s /Users/manina7539/Desktop/Driver/Android/Sdk/platform-tools/adb /Developer/adb
 ```
 
-* Edit */etc/bashrc*
+* Edit */etc/bashrc* and add the line below
 
 ```
 alias adb='/Developer/adb'
