@@ -7,7 +7,6 @@ tags: 'android, mac'
 
 ```bash
 $ sudo ln -s /Users/manina7539/Desktop/Driver/Android/Sdk/platform-tools/adb /Developer/adb
-
 ```
 
 * Edit */etc/bashrc*
