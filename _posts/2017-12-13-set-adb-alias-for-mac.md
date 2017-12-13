@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 tags: 'android, mac'
 ---
 
@@ -21,4 +21,3 @@ alias adb='/Developer/adb'
 ```bash
 $ source /etc/bashrc
 ```
-
