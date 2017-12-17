@@ -20,7 +20,7 @@ $ git checkout [branch-name=master]
     # Switched to branch 'master'
 ```
 
-* You can create branch on different checkout node
+* You can create a new branch on different checkout node
 
 ```bash
 $ git log
