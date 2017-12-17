@@ -21,6 +21,7 @@ $ git checkout [branch-name=master]
 ```
 
 * You can create branch on different checkout node
+
 ```bash
 $ git log
     commit a8a1908b7de8f658acd4173837ba5532aa8067dd
