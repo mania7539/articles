@@ -122,7 +122,7 @@ Bitbucket Avatar > Bitbucket Settings > SSH Keys > Add key
 * **Git push** with similar error below:
 
 ```
-$ git push origin develop_android-version_jni
+$ git push origin [branch-name: develop_android-version_jni]
 	# git@bitbucket.org: Permission denied (publickey).
 	# fatal: Could not read from remote repository.
 	# 
@@ -145,7 +145,7 @@ $ ls ~/.ssh/
 $ ssh-add ~/.ssh/mania7539-Bitbucket
 	# 'mania7539-Bitbucket' is a public key while 'mania7539-Bitbucket.pub' is a private key 
 
-$ git push origin develop_android-version_jni
+$ git push origin [branch-name: develop_android-version_jni]
 	# It should work fine now.
     
 	# Counting objects: 4280, done.
