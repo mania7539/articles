@@ -123,36 +123,37 @@ Bitbucket Avatar > Bitbucket Settings > SSH Keys > Add key
 
 ```
 $ git push origin develop_android-version_jni
-# git@bitbucket.org: Permission denied (publickey).
-# fatal: Could not read from remote repository.
-# 
-# Please make sure you have the correct access rights
-# and the repository exists.
+	# git@bitbucket.org: Permission denied (publickey).
+	# fatal: Could not read from remote repository.
+	# 
+	# Please make sure you have the correct access rights
+	# and the repository exists.
 ```
 
 * Try to locate the public key with the bash commands below:
 
 ```bash
 $ ssh -T hg@bitbucket.org
-# hg@bitbucket.org: Permission denied (publickey).
+	# hg@bitbucket.org: Permission denied (publickey).
 
 $ ssh-add -l
 	# The agent has no identities.
 
 $ ls ~/.ssh/
-# config                   known_hosts              mania7539-Bitbucket      mania7539-Bitbucket.pub 
+	# config                   known_hosts              mania7539-Bitbucket      mania7539-Bitbucket.pub 
 
 $ ssh-add ~/.ssh/mania7539-Bitbucket
 	# 'mania7539-Bitbucket' is a public key while 'mania7539-Bitbucket.pub' is a private key 
 
 $ git push origin develop_android-version_jni
 	# it should work fine now.
-# Counting objects: 4280, done.
-# Delta compression using up to 8 threads.
-# Compressing objects: 100% (4168/4168), done.
-# Writing objects: 100% (4280/4280), 6.76 MiB | 530.00 KiB/s, done.
-# Total 4280 (delta 1485), reused 0 (delta 0)
-# ...	
+    
+	# Counting objects: 4280, done.
+	# Delta compression using up to 8 threads.
+	# Compressing objects: 100% (4168/4168), done.
+	# Writing objects: 100% (4280/4280), 6.76 MiB | 530.00 KiB/s, done.
+	# Total 4280 (delta 1485), reused 0 (delta 0)
+	# ...	
 ```
 
 <!--
