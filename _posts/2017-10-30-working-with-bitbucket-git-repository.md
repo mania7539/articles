@@ -83,7 +83,7 @@ $ git mergetool
 
 ## Solving Error When Pushing to Bitbucket Git Server
 
-* **Git push** with error below:
+* **Git push** got error below:
 
 ```
 Warning: Permanently added 'bitbucket.org,104.192.143.3' (RSA) to the list of known hosts.
