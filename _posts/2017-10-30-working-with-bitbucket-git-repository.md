@@ -156,6 +156,7 @@ $ git push origin [branch-name: develop_android-version_jni]
 	# ...	
 ```
 
+
 <!--
 ## Reference
 **[Read: Create Git Repository With Heroku Cloud Service](https://mania7539.github.io/articles/create-git-repository-with-heroku-cloud-service.html)**
