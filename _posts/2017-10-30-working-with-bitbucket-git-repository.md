@@ -130,7 +130,7 @@ $ git push origin develop_android-version_jni
 	# and the repository exists.
 ```
 
-* Try to locate the public key with the bash commands below:
+* Try to locate the **public key** with the bash commands below:
 
 ```bash
 $ ssh -T hg@bitbucket.org
