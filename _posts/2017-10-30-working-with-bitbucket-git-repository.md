@@ -98,11 +98,11 @@ and the repository exists.
 
 ```bash
 $ ssh-add -l
-	# check the connection to your authentication agent
+	# Check the connection to your authentication agent
 
 $ ssh-add ~/.ssh/identity
-	# check the connection to your authentication agent
-    	# if getting "Could not open a connection to your authentication agent.", then go to the next steps
+	# Check the connection to your authentication agent
+    	# If getting "Could not open a connection to your authentication agent.", then go to the next steps
         
 $ ssh-keygen    
 $ ll ~/.ssh
@@ -146,7 +146,7 @@ $ ssh-add ~/.ssh/mania7539-Bitbucket
 	# 'mania7539-Bitbucket' is a public key while 'mania7539-Bitbucket.pub' is a private key 
 
 $ git push origin develop_android-version_jni
-	# it should work fine now.
+	# It should work fine now.
     
 	# Counting objects: 4280, done.
 	# Delta compression using up to 8 threads.
