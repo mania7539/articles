@@ -121,9 +121,8 @@ Bitbucket Avatar > Bitbucket Settings > SSH Keys > Add key
 
 * **Git push** with similar error below:
 
-```
+```bash
 $ git push origin [branch-name: develop_android-version_jni]
-
 	# git@bitbucket.org: Permission denied (publickey).
 	# fatal: Could not read from remote repository.
 	# 
