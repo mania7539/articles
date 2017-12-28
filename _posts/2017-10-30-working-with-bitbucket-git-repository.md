@@ -144,7 +144,7 @@ $ ls ~/.ssh/
 config                   known_hosts              mania7539-Bitbucket      mania7539-Bitbucket.pub 
 
 $ ssh-add ~/.ssh/mania7539-Bitbucket
-	# 'mania7539-Bitbucket' is a public key while 'mania7539-Bitbucket.pub' is private key 
+	# 'mania7539-Bitbucket' is a public key while 'mania7539-Bitbucket.pub' is a private key 
 
 $ git push origin develop_android-version_jni
 	# it should work fine now.
