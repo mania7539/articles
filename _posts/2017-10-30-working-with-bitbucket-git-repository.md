@@ -25,7 +25,9 @@ $ git add .
     # $ git diff --cached
     # 
     # can undo this command with 
-    # $ git reset .
+    # $ git reset
+    # $ git reset [filename]
+    #
 $ git status
     # check the added and modified files 
 $ vi .gitignore
