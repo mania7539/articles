@@ -159,6 +159,33 @@ $ git push origin [branch-name: develop_android-version_jni]
 ```
 
 
+* **Git push** with similar error below:
+
+```bash
+$ git push origin [branch-name: master]
+	# ! [rejected]        master -> master (non-fast-forward)
+	# error: failed to push some refs to 'https://github.com/mania7539/glfw-with-visualstudio.git' hint: Updates were rejected because the tip of your current branch is behind
+    # hint: its remote counterpart. Integrate the remote changes (e.g.
+    # hint: 'git pull ...') before pushing again.
+    # hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+    # ...
+```
+
+* Use **git push -f** to make git forget about its *imaginary problems*:
+
+```bash
+$ git push -f origin [branch-name: master]
+    # Counting objects: 77, done.
+    # Delta compression using up to 8 threads.
+    # Compressing objects: 100% (64/64), done.
+    # Writing objects: 100% (77/77), 249.51 KiB | 0 bytes/s, done.
+    # Total 77 (delta 30), reused 0 (delta 0)
+    # remote: Resolving deltas: 100% (30/30), done.
+    # To https://github.com/mania7539/glfw-with-visualstudio.git
+    # + c9e0537...77c49ac master -> master (forced update)
+```
+
+
 <!--
 ## Reference
 **[Read: Create Git Repository With Heroku Cloud Service](https://mania7539.github.io/articles/create-git-repository-with-heroku-cloud-service.html)**
