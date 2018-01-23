@@ -47,6 +47,7 @@ $ git push [short-name: origin] [branch-name: video2_2017-11-15]
 
 ```bash
 $ git stash -u
+	# use $ git stash apply to recover the stash
 ```
 
 
