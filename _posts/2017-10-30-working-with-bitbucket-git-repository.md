@@ -41,6 +41,9 @@ $ git push [short-name: origin] [branch-name: video2_2017-11-15]
 	# 	fatal: 'video2_2017-11-15' does not appear to be a git repository
 	# 	fatal: Could not read from remote repository.
 	#
+    # in other computer, you won't get the latest history, until you run command:
+    #	$ git pull origin [branch-name: master]
+    #
 ```
 
 * Discard changes git command
