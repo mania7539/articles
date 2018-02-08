@@ -15,7 +15,7 @@ $ git branch
     # * arc_2017-11-06
     # master
     
-# move to the branch #
+# switch to the branch #
 $ git checkout [branch-name=master]
     # Switched to branch 'master'
 ```
@@ -50,6 +50,22 @@ $ git checkout -b master
     # the branch position will be different with the same branch name if you use
     # $ git checkout a8a1908 and then $ git checkout -b master
     
+```
+
+
+* Remove branch
+
+```bash
+$ git branch -d [branch-name: refactor-ui]
+
+```
+
+
+* Rename branch
+
+```bash
+$ git branch -m [old-branch-name: gl-refactor] [new-branch-name: load-folder]
+
 ```
 
 
