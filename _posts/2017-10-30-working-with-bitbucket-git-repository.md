@@ -107,8 +107,11 @@ $ ssh-add -l
 	# Check the connection to your authentication agent
 
 $ ssh-add ~/.ssh/identity
+$ ssh-add ~/.ssh
 	# Check the connection to your authentication agent
     	# If getting "Could not open a connection to your authentication agent.", then go to the next steps
+$ ssh-add ~/.ssh/mania7539-Bitbucket 
+	# If you already generated a key, but not connected
         
 $ ssh-keygen    
 $ ll ~/.ssh
