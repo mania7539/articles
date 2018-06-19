@@ -64,7 +64,7 @@ $ git status
 	# nothing to commit, working tree clean
 
 # rebase - pick and squash #
-$ git rebase -i
+$ git rebase -i [excluded-commit-SHA1]
 ```
 
 * It will show a rebase interactive editor as below
